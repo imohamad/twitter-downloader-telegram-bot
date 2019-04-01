@@ -1,0 +1,26 @@
+{
+  "name": "twitter-downloader-bot",
+  "version": "1.0.0",
+  "description": "telegram bot for download video from twitter.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/bot.js",
+    "start-dev": "nodemon ./src/bot.js"
+  },
+  "keywords": [
+    "twitter",
+    "telegram",
+    "bot",
+    "download"
+  ],
+  "author": "MohamadReza Deylami",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.30.0",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "dotenv": "^7.0.0"
+  }
+}
