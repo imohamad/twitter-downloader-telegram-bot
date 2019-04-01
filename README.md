@@ -14,6 +14,7 @@ Clone repository and:
 
 ## Statistics
 The robot users information will be saved in  `./statistics/users.json` .
+
 this file will be automatically created.
 
 ## Further help
